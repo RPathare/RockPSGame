@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align:center;
+}
+h1{
+    background-color: palevioletred;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
+}
+img{
+     height: 7rem;
+     width: 7rem;
+     border-radius: 15rem;
+     border: 2px solid black;
+     margin: 2rem 2rem 0rem 0rem;
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.images{
+    display: flex;
+    justify-content: center;
+   
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 500;
+    gap:1rem;
+    margin-top: 1rem;
+}
+.msg-container{
+    margin-top: 3rem;
+    
+}
+#msg{
+    font-size: 1.5rem;
+    background-color:black;
+    /* border: 2px solid black; */
+    display: inline;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    color: #fff;
+}
